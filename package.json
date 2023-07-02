@@ -1,0 +1,21 @@
+{
+    "name": "webpack-project",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "webpack serve --config webpack.dev.config.ts",
+        "build": "webpack --config webpack.prod.config.ts"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/fork-ts-checker-webpack-plugin": "^0.4.5",
+        "@types/react": "^18.2.14",
+        "@types/react-dom": "^18.2.6",
+        "clean-webpack-plugin": "^4.0.0",
+        "eslint-webpack-plugin": "^4.0.1",
+        "fork-ts-checker-webpack-plugin": "^8.0.0",
+        "typescript": "^5.1.6"
+    }
+}
